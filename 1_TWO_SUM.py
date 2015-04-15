@@ -1,5 +1,7 @@
 class Solution:
     # @return a tuple, (index1, index2)
+    # if num is sorted we could go from head and tail, but if not this ways
+    # works better
     def twoSum(self, num, target):
         dic = {}
         ans = []
